@@ -15,7 +15,9 @@ Checks: >
   -misc-non-private-member-variables-in-classes,
   -misc-no-recursion,
   -misc-use-anonymous-namespace,
-  -misc-use-internal-linkage
+  -misc-use-internal-linkage,
+  -hicpp-braces-around-statements,
+  -readability-braces-around-statements
 WarningsAsErrors: '*'
 HeaderFilterRegex: 'include/.*'
 FormatStyle: file
